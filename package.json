@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Naoya Yamashita <conao3@gmail.com>",
   "license": "Apache-2.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "dependencies": {
     "@adobe/react-spectrum": "^3.14.1"
   },
